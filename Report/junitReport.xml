@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="37.466" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="ECOM Application" name="HomePage - Example #1.1" time="9.756">
+<system-out><![CDATA[
+Given user launch the Url...................................................passed
+When user select the "Baby" from dropodown..................................passed
+Then user enter "toys" in search box........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ECOM Application" name="HomePage - Example #1.2" time="4.887">
+<system-out><![CDATA[
+Given user launch the Url...................................................passed
+When user select the "Books" from dropodown.................................passed
+Then user enter "velpaari" in search box....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ECOM Application" name="HomePage - Example #1.3" time="6.452">
+<system-out><![CDATA[
+Given user launch the Url...................................................passed
+When user select the "Music" from dropodown.................................passed
+Then user enter "cd" in search box..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ECOM Application" name="ResultsPage" time="16.036">
+<system-out><![CDATA[
+When select the first product...............................................passed
+And check the selected product text with first product......................passed
+Then add the product to the cart............................................passed
+And Take Screenshot.........................................................passed
+Then go to cart.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ECOM Application" name="cartpage" time="0.055">
+<system-out><![CDATA[
+When check selectedproducttext with shoppingproductcarttext.................passed
+]]></system-out>
+</testcase>
+</testsuite>
